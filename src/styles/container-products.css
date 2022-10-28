@@ -1,0 +1,17 @@
+.container-products {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  max-height: 60rem;
+  margin: 2rem;
+}
+
+.container-products::-webkit-scrollbar {
+  background-color: #b0bbd0;
+  width: 7px;
+  border-radius: 3px;
+}
+.container-products::-webkit-scrollbar-thumb {
+  background-color: #446096;
+  border-radius: 3px;
+}

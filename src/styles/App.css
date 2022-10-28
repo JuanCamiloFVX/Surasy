@@ -1,0 +1,35 @@
+.body {
+  background-color: var(--color-body);
+  display: flex;
+  justify-content: center;
+  min-height: 80rem;
+}
+
+.session{
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  width: 100%;
+  height: 70rem;
+}
+
+.tittle-session{
+  background-color: #99add5;
+  max-width: 30%;
+  font-weight: bold;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem 1rem 0 0 ;
+}
+
+.contents{
+  width: 100%;
+  height: 100%;
+  background-color: #99add5;
+  border-radius: 1rem;
+}
+.productos{
+  border-radius: 0rem 1rem 1rem 1rem;
+}

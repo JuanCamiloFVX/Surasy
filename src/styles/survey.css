@@ -1,0 +1,84 @@
+.container-survey {
+  display: flex;
+  flex-direction: column;
+  background-color: #647cac;
+  margin: 0 5rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+.part {
+  display: flex;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.session-survey {
+  width: 33%;
+  height: 20rem;
+  margin: 1rem;
+  background-color: #b0bbd0;
+  border-radius: 0.5rem;
+}
+.session-survey h1 {
+  font-weight: bold;
+  color: #FFF;
+  margin: 1rem;
+}
+
+.submit {
+  flex-direction: row-reverse;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.submit button {
+  background-color: #d9d9d9;
+  color: #446096;
+}
+.option{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.valoracion{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+.colletion-option{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.radius{
+    margin: 0 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #535f77;
+}
+
+.motivo{
+justify-content: start;
+margin: 5rem 1rem;
+}
+.select {
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #535f77;
+    width: 50%;
+    height: 4rem;
+    border-radius: .5rem;
+}
+
+.select img,
+.select h2{
+margin: 1rem;
+}
+
+.select img{
+    width:3rem;
+    height: 3rem;
+}

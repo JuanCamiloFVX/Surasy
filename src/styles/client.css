@@ -1,0 +1,39 @@
+.container-client{
+display: flex;
+margin: 0rem 0rem;
+justify-content: space-between;
+align-items: center;
+background-color: #647cac;
+}
+
+.container-client:last-of-type{
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.attribute{
+    background-color: #446096;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: .6rem;
+    height: 3rem;
+}
+
+.text{
+    color: #FFF;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.line{
+    background-color: #446096;
+    height: 3rem;
+    width: .7rem;
+    border-radius: .2rem;
+}
+.container-client button{
+background-color: #b7becb;
+width: 1rem;
+margin: 1rem;
+}
